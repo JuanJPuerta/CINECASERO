@@ -1,0 +1,134 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+h1{
+   width: 100%;
+   position: absolute;
+   color: rgb(0, 0, 0);
+   padding: 35px;
+}
+body{
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background: rgb(255, 255, 255);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.arriba{
+   display: flex;
+   background: rgba(0, 140, 255, 1);
+}
+.img{
+   margin-left: 320px;
+}
+.img2{
+   margin-left: 390px;
+}
+a{
+   text-decoration: none;
+}
+nav{
+   width: 100%;   
+}
+nav li{
+   list-style: none;
+   text-decoration: none;
+   color: rgb(255, 0, 0);
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+nav{
+   width: 100%;
+   margin: auto;
+   background-color: rgb(255, 255, 255);
+   font-size: 20px;
+   margin-top: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu_horizontal{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+}
+.menu_horizontal > li > a{
+   display: block;
+   padding: 15px 20px;
+   color: rgb(0, 0, 0) ;
+   text-decoration: none;
+}
+.menu:hover li{
+   background-color: rgb(255, 0, 0);
+}
+.menu_desplegable{
+   position: absolute;
+   display: none;
+   list-style: none;
+   width: 200px;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+.menu_horizontal li:hover .menu_desplegable{
+   display: block;
+}
+.menu_desplegable li:hover{
+   background-color: rgb(243, 243, 243);
+}
+.link:hover a{
+   color: white;
+}
+.link{
+   font-size: 30px;
+   color: #000;
+   background: rgba(0, 140, 255, 1);
+   width: 110px;
+   border-radius: 15px;
+   margin-left: 560px;
+ }
+/*
+.tarjeta{
+   margin: 20px;
+   width: 200px;
+   height: 300px;
+   border-radius: 15px;
+   background-image: var(--background);
+   background-size: cover;
+   box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+.contenido{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: rgba(0, 0, 0, .4);
+   opacity: 0;
+   transition: .5s;
+}
+.contenido h2, a{
+   color: rgba(255, 255, 255, 0.8);
+   margin: 10px 0;
+}
+.tarjeta:hover .contenido{
+   opacity: 1;
+}
+.tarjetas{
+   display: flex;
+}
+.tarjetas a{
+   text-decoration: none;
+}
+.tarjeta .contenido{
+   transform: perspective(600px) rotateY(0deg);
+   box-shadow: 0 5px 10px #000;
+}
+.tarjeta .atras{
+   transform: perspective(600px) rotateY(180detg);
+}
+*/
